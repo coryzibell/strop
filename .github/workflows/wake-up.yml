@@ -9,6 +9,6 @@ permissions:
   contents: write
 jobs:
   ci:
-    uses: coryzibell/nebuchadnezzar/.github/workflows/wake-up.yml@main
+    uses: coryzibell/nebuchadnezzar/.github/workflows/wake-up.yml@v1
     secrets:
       GH_PAT: ${{ secrets.GH_PAT }}
